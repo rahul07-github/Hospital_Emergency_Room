@@ -2,7 +2,7 @@
 **A comprehensive dataset for analyzing emergency-room patient flow, wait times, admission rates, and demographic breakdowns.**
 ## Project Description
 
-This repository contains the raw data behind the **Hospital Emergency Room Dashboard** (visualized in the provided screenshots).  
+This repository contains the raw data behind the **Hospital Emergency Room Dashboard** (visualized).  
 The data covers **patient visits from 01-April-2023 to 30-October-2024** and includes:
 
 * Individual patient records (ID, name, gender, age, race, admission date, wait time, referral department, admission status)
@@ -76,6 +76,36 @@ Each record includes demographic, operational, and administrative information su
 * Younger and middle-aged adults form the majority of ER patients.
 * Department referral data suggests potential improvement in coordination between General Practice and specialty departments.
 
+----------------
+## 🗂️ Project Structure
+Hospital_Emergency_Room/
+│
+├── README.md
+├── Patient ER Dashboard.pbix
+├── Hospital ER_Data.csv
+├── Monthly_view.png
+├── Consolidated View.png
+└── Patient Details.png
+
+--------------------
+## 🏥 Dashboard Previews
+
+### 📅 Monthly View
+![Monthly View](Monthly_view.png)
+
+### 📈 Consolidated View
+![Consolidated View](Consoliated_view.png)
+
+### 👥 Patient Details
+![Patient Details](Patient_Details.png)
+
+
 ---------
 ## 🙏 Acknowledgment
 **Special thanks to the Hospital Data Scientist Team for collecting, cleaning, and maintaining the ER dataset. Appreciation is extended to the Health IT Department for integrating the data infrastructure and supporting Power BI deployment.**
+
+---------------------
+## 🌟 Bonus (Makes it Stand Out)
+* Add a small GIF showing the dashboard interaction (if possible).
+* Use horizontal dividers (---) between sections.
+* Keep your language simple, readable, and structured.
